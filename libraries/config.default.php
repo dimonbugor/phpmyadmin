@@ -131,14 +131,14 @@ $i = 1;
  *
  * @global string $cfg['Servers'][$i]['host']
  */
-$cfg['Servers'][$i]['host'] = 'jws-app-mysql';
+$cfg['Servers'][$i]['host'] = 'localhost';
 
 /**
  * MySQL port - leave blank for default port
  *
  * @global string $cfg['Servers'][$i]['port']
  */
-$cfg['Servers'][$i]['port'] = '3306';
+$cfg['Servers'][$i]['port'] = '';
 
 /**
  * Path to the socket - leave blank for default socket
