@@ -137,6 +137,7 @@ if ($display_page != -1) {
     $selected_page = $designerCommon->getPageName($display_page);
 }
 $tab_pos = $designerCommon->getTablePositions($display_page);
+if( empty($tab_pos) ) $tab_pos = [];
 $script_contr = $designerCommon->getScriptContr();
 
 $params = ['lang' => $GLOBALS['lang']];
